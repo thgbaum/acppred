@@ -1,4 +1,4 @@
-# acppred
+# ACPPred
 
 By thgbaum
 
@@ -10,7 +10,7 @@ a tool to predict anticancer peptides
 $ make setup -> Either creates or updatades the environment
 
 
-##ACPPred Folder:
+## ACPPred Folder:
 
 acppred/__ini__.py -> Imports python scripts from this folder to act as packages
 
@@ -25,7 +25,7 @@ acppred/train.py -> Sets up argument_parser arguments and stablishes tool defaul
 acppred/utils.py -> Holds amino acid one letter code
 
 
-##Data Folder:
+## Data Folder:
 
 data/models -> Contains model.pickle archive
 
