@@ -2,7 +2,7 @@
 
 By thgbaum
 
-a tool to predict anticancer peptides
+A tool to predict anticancer peptides
 
 ## Setup
 
@@ -12,15 +12,15 @@ $ make setup -> Either creates or updatades the environment
 
 ## ACPPred Folder:
 
-acppred/__ini__.py -> Imports python scripts from this folder to act as packages
+acppred/\_\_init\_\_.py -> Imports python scripts from this folder to act as packages
 
-acppred/models.py -> Creates class Model where methods __init__(), transform(), train(), predict(), save() and load() are defined
+acppred/models.py -> Creates class Model where methods \_\_init\_\_(), transform(), train(), predict(), save() and load() are defined
 
 acppred/predict.py -> Parses through fasta files, makes predictions and save them on a .csv file
 
 acppred/server.py -> Creates a Flask app and links routes to reference .html files
 
-acppred/train.py -> Sets up argument_parser arguments and stablishes tool default files Imports model and applies Random Forest estimator as default machine learning training algorithm
+acppred/train.py -> Sets up argument_parser arguments and stablishes tool default files. Imports model and applies Random Forest() estimator as default machine learning training algorithm
 
 acppred/utils.py -> Holds amino acid one letter code
 
